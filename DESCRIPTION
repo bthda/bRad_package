@@ -1,0 +1,11 @@
+Package: bRad
+Title: This is a package to calculate scores and reliability from full BFI-2 measure.
+Version: 0.0.0.9000
+Authors@R: person("Bradley", "Hughes", email = "bhughes7@uoregon.edu", role = c("aut", "cre"))
+Description: This package takes a properly labelled dataframe with the full BFI-2 measure and calculates traits scores. It can also take a dataframe with raw BFi-2 scores and calculate alpha for relaibility.
+Depends: R (>= 3.5.0)
+License: Open
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: psych (>= 1.8.4)
